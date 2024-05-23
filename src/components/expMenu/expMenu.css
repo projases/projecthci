@@ -1,0 +1,28 @@
+/* expMenu.css */
+
+/* Style for the dropdown container */
+.expMenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border: 1px solid #f1f1f1;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    top: 16.92em;
+    }
+
+
+.expMenu a {
+  color: black; /* Color of the links */
+  padding: 12px 16px; /* Padding around the links */
+  text-decoration: none; /* Remove underline from links */
+  display: block; /* Display links as block elements */
+  border-: 1px groove #12759e;
+  background-color: rgba(18, 117, 158, 0.3); /* Add a border to the links */
+}
+
+.expMenu a:hover {
+  background-color: rgba(18, 117, 158, 0.2); /* Change background color of links on hover */
+}
+

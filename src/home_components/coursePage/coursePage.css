@@ -1,0 +1,26 @@
+.course-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 100%;
+  background-color: #f8f9fa;
+}
+.course-page h2 {
+  font-size: 4em;
+  color: #12759e;
+}
+
+.course-page section{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  font-size: 1.5em;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+  /* border: 1px solid red; */
+  width: 50%;
+}

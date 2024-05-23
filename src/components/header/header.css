@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px; */
+  padding: 0 40px 0 40px;
+  width: 100%;
+  height: 211px;
+  background-color: #f8f9fa;
+  border-bottom: 2px solid  #12759e;
+  /* border: 2px solid red; */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+.header img {
+  height: 150px;
+  width: 211px;
+}
+.header blockquote {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+.buttonContainer {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* padding-right: 40px; */
+}
+.buttonContainer a {
+  text-decoration: none;
+  color: black;
+}
+.buttonContainer button {
+  display: flex;
+  font: inherit;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 4px;
+  background: #12759e;
+  color: white;
+  /* box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2),
+    0px 5px 15px 0px rgba(37, 44, 97, 0.15); */
+}
+.buttonContainer button:hover {
+  background-color: #1789bb;
+  cursor: pointer;
+}
