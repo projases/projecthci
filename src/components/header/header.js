@@ -13,13 +13,13 @@ export function header(parentElement) {
   logo.alt = 'Logo Open Source Education'
   quote.innerHTML =
     'Change is the end result of all true learning. <br> - Leo Buscaglia'
-  login.href = '../../../home.html'
+  login.href = '/home.html'
   div.classList.add('buttonContainer')
 
   login.innerHTML = 'Log in'
   signup.innerHTML = 'Sign up'
   signup.addEventListener('click', function() {
-    window.location.href = '../../../home.html'; // Redirect to home page
+    window.location.href = '/home.html'; // Redirect to home page
   });
   div.appendChild(login)
   div.appendChild(signup)
